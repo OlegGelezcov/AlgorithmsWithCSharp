@@ -1,0 +1,59 @@
+﻿@model List<FuncModel>
+@{
+    ViewData["Title"] = "Task Size";
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Interval
+            </th>
+            <th>
+                Log(N)
+            </th>
+            <th>
+                Sqrt(N)
+            </th>
+            <th>
+                N
+            </th>
+            <th>
+                N^2
+            </th>
+            <th>
+                2^N
+            </th>
+            <th>
+                N!
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var m in Model ) {
+            <tr>
+                <td>
+                    @m.IntervalName
+                </td>
+                <td>
+                    @m.Log2N
+                </td>
+                <td>
+                    @m.SqrtN
+                </td>
+                <td>
+                    @m.N
+                </td>
+                <td>
+                    @m.N2
+                </td>
+                <td>
+                    @m._2PN
+                </td>
+                <td>
+                    @m.NFact
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
