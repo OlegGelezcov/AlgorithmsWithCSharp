@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmsLibrary", "Algori
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmsLibrary.Tests", "AlgorithmsLibrary.Tests\AlgorithmsLibrary.Tests.csproj", "{16628C95-65B9-498E-B4EE-BC8ABD38BCAD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmsConsole", "AlgorithmsConsole\AlgorithmsConsole.csproj", "{FB54BEFB-0466-4925-B4CC-36AC18D5592D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{16628C95-65B9-498E-B4EE-BC8ABD38BCAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16628C95-65B9-498E-B4EE-BC8ABD38BCAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16628C95-65B9-498E-B4EE-BC8ABD38BCAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB54BEFB-0466-4925-B4CC-36AC18D5592D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB54BEFB-0466-4925-B4CC-36AC18D5592D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB54BEFB-0466-4925-B4CC-36AC18D5592D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB54BEFB-0466-4925-B4CC-36AC18D5592D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
